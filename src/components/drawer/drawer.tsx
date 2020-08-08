@@ -1,13 +1,13 @@
 import React from "react";
-import Drawer from "@material-ui/core/Drawer";
-import Divider from "@material-ui/core/Divider";
+import { useStyles } from "./styles";
 import List from "@material-ui/core/List";
+import Drawer from "@material-ui/core/Drawer";
+import MailIcon from "@material-ui/icons/Mail";
+import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
+import InboxIcon from "@material-ui/icons/MoveToInbox";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
-import { useStyles } from "./styles";
 
 export const DrawerComponent = () => {
 	const classes = useStyles();
